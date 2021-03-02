@@ -29,7 +29,7 @@ def solve_maze_with_stack(x1, y1, x2, y2):
             print(stack)
             return True
         for d in dirs:
-            next_x, next_y = d(*cur_node)
+            next_x, next_y = d(*cur_node)   # *cur_node 可变参数 元组
             if maze[next_x][next_y] == 0:
                 stack.append((next_x, next_y))
                 maze[next_x][next_y] = 2
