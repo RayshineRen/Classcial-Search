@@ -1,3 +1,3 @@
 # Classical-Search
  
- uesd to learn AIMA-chapter3 Classical Searcn
+ uesd to learn AIMA-chapter3 Classical Search
